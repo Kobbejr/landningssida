@@ -1,1 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  height: 100px;
+  width: auto;
+}
+body {
+  background-color: rgb(236, 236, 236);
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border: 1px solid rgb(5, 5, 5);
+  padding: 10px;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: rgb(161, 158, 158);
+}
+.navbar {
+  font-size: 20px;
+}
+.ansök1 {
+  border: 1px thin black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(15, 185, 215);
+  text-decoration: none;
+  color: black;
+}
 
+.ansök2 {
+  border: 1px thin black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(39, 181, 221);
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  position: sticky;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.text1 {
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.bild1 {
+  width: 42vw;
+  margin-right: 60px;
+}
+
+.del2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(205, 205, 205);
+}
+
+.del2text {
+  padding: 20px;
+  color: rgb(8, 8, 8);
+  margin-left: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+.del3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.card {
+  width: 250px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 3px 3px 10px rgba(8, 8, 8, 0.35);
+}
+
+.cardtext {
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  height: 200px;
+  background-size: cover;
+}
+
+.card-1 {
+  background-image: url("images/magnamon.png");
+}
+
+.card-2 {
+  background-image: url("bilder/daredevil.jpg");
+}
+
+.card-3 {
+  background-image: url("bilder/agentvenom.jpg");
+}
